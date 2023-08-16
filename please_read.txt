@@ -1,0 +1,12 @@
+★Python 버전은 3.8.13 입니다★
+개발환경: Linux (Visual Studio Code 원격개발)
+
+실행 순서는 preprocessing.ipynb --> Train.ipynb --> Test.ipynb 입니다.
+
+데이터는 ./data폴더에서 새롭게 저장되며 이는 preprocessing.ipynb주석에 자세히 설명되어있습니다.
+
+Train의 경우 3개의 모델을 자동으로 모두 학습하지 않습니다. 즉, 학습하고자 할 모델의 주석부분을 풀어 별도로 실행하여 pt파일을 만들어야합니다.
+
+pt파일은 ./model_pt 폴더에 있으며 실제 제출 시 사용했던 pt입니다.
+
+data는 업로드 하지 않습니다. 기존에 있었던 baseline데이터를 다운받고 preprocessing.ipynb 절차에 따라 데이터를 구축하면 됩니다.
